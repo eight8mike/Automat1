@@ -30,6 +30,7 @@ public class SugerenciasActivity extends Activity {
     TextView textView;
     javax.mail.Session session;
 
+    // Hacer bien esta mmda por que no c como se hace
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
