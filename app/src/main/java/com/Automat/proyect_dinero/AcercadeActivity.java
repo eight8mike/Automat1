@@ -27,7 +27,7 @@ public class AcercadeActivity extends Activity {
         Animation animation2 = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_abajo);
         Animation animation3 = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_arriba2);
 
-        // Crear clases
+        // Crear clases y Referencias id´s
 
         textView1 = findViewById(R.id.version);
         textView2 = findViewById(R.id.nombre);
