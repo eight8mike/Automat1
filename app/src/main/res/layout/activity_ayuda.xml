@@ -82,9 +82,8 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/funcionesmas" />
-<!--
 
-<Button
+        <Button
         android:id="@+id/preguntas"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -97,7 +96,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+        <Button
         android:id="@+id/sugerencias"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -110,7 +109,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
-
--->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

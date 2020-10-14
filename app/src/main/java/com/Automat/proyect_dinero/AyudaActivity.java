@@ -26,7 +26,7 @@ public class AyudaActivity extends Activity {
                 finish();
             }
         });
-/*n1 = findViewById(R.id.sugerencias);
+        boton1 = findViewById(R.id.sugerencias);
         boton2 = findViewById(R.id.preguntas);
 
         boton1.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +35,7 @@ public class AyudaActivity extends Activity {
                 Intent intent = new Intent(AyudaActivity.this, SugerenciasActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
 
     }
 
