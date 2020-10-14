@@ -59,7 +59,7 @@ public class Tab1ManufacturaFragment extends Fragment{
     // Asignar los datos de cada apartado
 
     public void cargarLista() {
-        listaPalabras.add(new Palabra("Estudio de factibilidad", "Fundamentar la factibilidad del producto, pieza o proyecto, para su respectiva planeación del proceso de manufactura."));
+        listaPalabras.add(new Palabra("   Estudio de factibilidad", "Fundamentar la factibilidad del producto, pieza o proyecto, para su respectiva planeación del proceso de manufactura."));
         listaPalabras.add(new Palabra("Dibujo de conjunto", "Representar los requerimientos gráficos de fabricación de una pieza o proyecto de manufactura, considerando las normas existentes del dibujo mecánico."));
         listaPalabras.add(new Palabra("Dibujo de definición", "Representar las especificaciones de fabricación de una pieza o proyecto de manufactura, considerando las normas existentes del dibujo mecánico."));
         listaPalabras.add(new Palabra("Dibujo de ensamble", "Representar en perspectiva el conjunto de piezas del proyecto de manufactura, en posición conveniente para el ensamble del mismo."));
