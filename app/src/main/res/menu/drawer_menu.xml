@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_casa"
+            android:title="Principal"
+            android:checkable="true">
+        </item>
+    </group>
+    <item android:title="Maquinas y Herramientas">
+        <menu>
+            <item
+                android:id="@+id/metrologia"
+                android:icon="@drawable/ic_unidades"
+                android:title="Metrologia"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/materiales"
+                android:icon="@drawable/ic_materiales"
+                android:title="Materiales"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/manufactura"
+                android:icon="@drawable/ic_manufactura"
+                android:title="Manufactura"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/torno_fresa"
+                android:icon="@drawable/ic_torno"
+                android:title="Torno y Fresa"
+                android:checkable="true"/>
+        </menu>
+    </item>
+    <!---  ACTUALIZACION
+    <item android:title="Sistemas Automatizados">
+    <menu>
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/electricos"
+            android:icon="@drawable/ic_casa"
+            android:title="Sistemas Electricos">
+        </item>
+        <item
+            android:id="@+id/electronica"
+            android:icon="@drawable/ic_simbologia"
+            android:title="Electronica">
+        </item>
+        <item
+            android:id="@+id/hidroneumatica"
+            android:icon="@drawable/ic_glosario"
+            android:title="Hidroneumatica">
+        </item>
+        <item
+            android:id="@+id/electrohidro"
+            android:icon="@drawable/ic_unidades"
+            android:title="Electro Hidroneumatica">
+        </item>
+        </group>
+    </menu>
+    </item>
+    -->
+    <item android:title="Otros">
+        <menu>
+            <group android:checkableBehavior="single">
+                <!-- ACUTUALIZACION
+                <item
+                android:id="@+id/simbologia"
+                android:icon="@drawable/ic_simbologia"
+                android:title="Simbologia"
+                android:checkable="true">
+            </item>
+            -->
+            <item
+                android:id="@+id/glosario"
+                android:icon="@drawable/ic_glosario"
+                android:title="Glosario"
+                android:checkable="true">
+            </item>
+                <!-- ACTUALIZACION
+            <item
+                android:id="@+id/unidades"
+                android:icon="@drawable/ic_unidades"
+                android:title="Unidades">
+            </item>
+            -->
+            </group>
+        </menu>
+    </item>
+    <item android:title="Acerca de">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/ayuda"
+                android:icon="@drawable/ic_ayuda"
+                android:title="Ayuda">
+            </item>
+            <item
+                android:id="@+id/compartir"
+                android:icon="@drawable/ic_comparte"
+                android:title="Compartir">
+            </item>
+            <item
+                android:id="@+id/pagina_web"
+                android:icon="@drawable/ic_pagina"
+                android:title="FutureFix">
+            </item>
+            <item
+                android:id="@+id/faceB"
+                android:icon="@drawable/ic_fb"
+                android:title="Facebook">
+            </item>
+            <item
+                android:id="@+id/acerca_de"
+                android:icon="@drawable/ic_info"
+                android:title="Acerca de">
+            </item>
+            </group>
+        </menu>
+    </item>
+</menu>

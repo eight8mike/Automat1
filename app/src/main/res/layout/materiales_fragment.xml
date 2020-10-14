@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_materiales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/principal_rojo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabIndicatorColor="@color/cardview_dark_background"
+        app:tabTextColor="@color/cardview_light_background"
+        tools:ignore="PrivateResource">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/opcion1_materiales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENSAYOS Y PRUEBAS" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/opcion2_materiales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TABLAS" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/opcion3_materiales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMULAS" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/opcion4_materiales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACEROS" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_materiales"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="97dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout_materiales" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_Mat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="@string/prueba_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Automat.proyect_dinero">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_circulocuadro"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_circular"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2030839089746380~3487708931"/>
+
+        <activity android:name="com.Automat.proyect_dinero.MainActivity"/>
+        <activity android:name="com.Automat.proyect_dinero.AyudaActivity"/>
+        <activity android:name="com.Automat.proyect_dinero.AcercadeActivity"/>
+        <activity android:name="com.Automat.proyect_dinero.SugerenciasActivity"/>
+        <activity android:name="com.Automat.proyect_dinero.SplashActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

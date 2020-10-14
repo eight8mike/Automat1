@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_unidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/principal_rojo"
+        app:tabIndicatorColor="@color/cardview_dark_background"
+        app:tabTextColor="@color/cardview_light_background"
+        android:layout_marginTop="50dp"
+        tools:ignore="PrivateResource">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/opcion1_unidades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opcion 1" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/opcion2_unidades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opcion 2" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/opcion3_unidades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opcion 3" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_unidades"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>
