@@ -60,16 +60,20 @@ public class Tab3MaterialesFragment extends Fragment {
 
     public void cargarLista() {
 
-        listaMateriales.add(new EquipoMateriales("Ensayo de tracción", "", R.drawable.tra_p));
+        listaMateriales.add(new EquipoMateriales("Ensayo de tracción", "e = Alargamiento o Deformacion unitaria\n\nL0 = Longitud inicial de la probeta" +
+                "\n\nL = Longitud de la probeta en un momento determinado", R.drawable.tra_p));
 
-        listaMateriales.add(new EquipoMateriales("Ensayo ROCKWELL", "", R.drawable.rock_p));
+        listaMateriales.add(new EquipoMateriales("Ensayo ROCKWELL", "n = Valor numerico de la dureza obtenida\n\nHR = Es el identificador del ensayo Rockwell\n\nLetra = Despues " +
+                "del identificador HR, seguirá una letra correspondiente al tipo de escala usada", R.drawable.rock_p));
 
-        listaMateriales.add(new EquipoMateriales("Ensayo BRINELL", "", R.drawable.bri_p));
+        listaMateriales.add(new EquipoMateriales("Ensayo BRINELL", "P = Carga a utilizar en el ensayo, medida en (Kp)\n\nD = Es el diametro de la bola" +
+                " (indentador) medida en mm\n\nd = Es el diametro de la huella creada en la superficie de la probeta, en mm", R.drawable.bri_p));
 
-        listaMateriales.add(new EquipoMateriales("Ensayo VICKERS", "", R.drawable.vick_p));
+        listaMateriales.add(new EquipoMateriales("Ensayo VICKERS", "P = La carga aplicada en el ensayo (Kp)\n\nS = Es la superficie de la huella en mm cuadrados" +
+                "\n\nd = Es el valor promedio de la diagonal de la huella impresa en la probeta en mm", R.drawable.vick_p));
 
-        listaMateriales.add(new EquipoMateriales("Ensayo KNOOP", "", R.drawable.kn_p));
-
+        listaMateriales.add(new EquipoMateriales("Ensayo KNOOP", "L = longitud de la hendidura en su eje largo\n\nCp = Factor de correccion relativo a la forma de la hendidura" +
+                ", idealmente 0.070279\n\n P = Carga", R.drawable.kn_p));
     }
 
     public void mostrarLista() {
