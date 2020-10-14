@@ -24,7 +24,7 @@ public class SplashActivity extends Activity {
         Animation animation1 = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_arriba);
         Animation animation2 = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_abajo);
 
-        // Referenciar los id
+        // Referenciar los id ahora si
 
         TextView PorTextView =findViewById(R.id.PorTextView);
         TextView FutureFixTextView =findViewById(R.id.FutureFixTextView);
